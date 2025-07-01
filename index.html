@@ -1,101 +1,129 @@
-12:31 30/06/2025<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aires Acondicionados FRÍO+</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FRÍO+ – Aires Acondicionados</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f4f4f4;
+      background: #f5f9ff;
       color: #333;
     }
     header {
-      background: #007BFF;
+      background: #0077cc;
       color: white;
-      padding: 1rem 2rem;
+      padding: 20px 40px;
       text-align: center;
     }
-    nav {
-      background: #0056b3;
-      color: white;
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      padding: 0.5rem;
-    }
     nav a {
+      margin: 0 15px;
       color: white;
       text-decoration: none;
+      font-weight: bold;
     }
-    main {
-      padding: 2rem;
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #0077cc;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
     }
     .producto {
       background: white;
-      border-radius: 8px;
+      padding: 20px;
+      border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      padding: 1rem;
-      margin-bottom: 1rem;
-    }
-    .producto img {
-      max-width: 100%;
-      border-radius: 8px;
+      width: 250px;
+      text-align: center;
     }
     footer {
-      background: #222;
-      color: white;
+      background: #e0e0e0;
+      padding: 20px;
       text-align: center;
-      padding: 1rem;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #0077cc;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    @media (max-width: 600px) {
+      .productos {
+        flex-direction: column;
+        align-items: center;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Aires Acondicionados FRÍO+</h1>
-    <p>Confort y eficiencia para tu hogar o negocio</p>
+    <h1>FRÍO+ – Aire Acondicionado Inteligente</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
   </header>
-  <nav>
-    <a href="#productos">Productos</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-  <main>
-    <section id="productos">
-      <h2>Nuestros Productos</h2>
+
+  <section id="inicio">
+    <h2>Bienvenido a FRÍO+</h2>
+    <p>Descubre las últimas tendencias y novedades en aires acondicionados. Tecnología moderna, eficiencia energética y confort garantizado para tu hogar o negocio.</p>
+  </section>
+
+  <section id="beneficios">
+    <h2>¿Por qué elegir FRÍO+?</h2>
+    <ul>
+      <li>✅ Alta eficiencia energética</li>
+      <li>✅ Control por voz y WiFi</li>
+      <li>✅ Instalación rápida y mantenimiento sencillo</li>
+      <li>✅ Garantía de hasta 10 años</li>
+    </ul>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
       <div class="producto">
-        <h3>Aire Split 3000 Frigorías</h3>
-        <img src="https://via.placeholder.com/600x300?text=Aire+Split" alt="Aire Split">
-        <p>Ideal para habitaciones medianas. Alta eficiencia energética y bajo consumo.</p>
+        <h3>FRÍO+ Smart 1200</h3>
+        <p>Ideal para habitaciones pequeñas. Silencioso y compacto.</p>
       </div>
       <div class="producto">
-        <h3>Aire Portátil 2500 Frigorías</h3>
-        <img src="https://via.placeholder.com/600x300?text=Aire+Port%C3%A1til" alt="Aire Portátil">
-        <p>Fácil de mover, perfecto para espacios reducidos. No requiere instalación.</p>
+        <h3>FRÍO+ EcoMax 2500</h3>
+        <p>Gran potencia, bajo consumo. Perfecto para salones o comercios.</p>
       </div>
-    </section>
+      <div class="producto">
+        <h3>FRÍO+ ProLine</h3>
+        <p>Para instalaciones profesionales. Máxima eficiencia y control remoto avanzado.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="servicios">
-      <h2>Servicios</h2>
-      <ul>
-        <li>Instalación profesional</li>
-        <li>Mantenimiento y limpieza</li>
-        <li>Asesoramiento personalizado</li>
-      </ul>
-    </section>
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>📧 contacto@frio-plus.com</p>
+    <p>📞 +34 600 123 456</p>
+    <div class="social">
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a>
+    </div>
+  </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>¿Tienes preguntas? Escríbenos a <a href="mailto:contacto@frio-mas.com">contacto@frio-mas.com</a> o llama al <strong>+34 600 123 456</strong>.</p>
-    </section>
-  </main>
   <footer>
     <p>&copy; 2025 FRÍO+. Todos los derechos reservados.</p>
   </footer>
+
 </body>
 </html>
+
